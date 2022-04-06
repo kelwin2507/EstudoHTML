@@ -1,0 +1,58 @@
+/* 
+Arquivo de CSS(Cascade Style Sheet - Folha de Estilo em cascata 
+é utilizado para fazer a camada de formatação de um site html.
+*/
+/* 
+Vamos formatar todos os elementos presentes em uma página html
+usando o * (asterisco) e aplicar margem externa e interna zero(0) 
+e realizar o ajuste das caixas em html */
+
+* {
+  margin: 0px; /*Margem externa das caixas*/
+  padding: 0px; /*Margem interna das caixas*/
+  box-sizing: border-box; /*Ajuste de padding das caixas sem a soma com a largura*/
+}
+
+header {
+  height: 300px; /*Aplicar altura ao cabeçalho*/
+  /*Aplicar imagem de fundo ao cabeçalho*/
+  background-image: url("https://images.unsplash.com/photo-1562815240-be666d2600ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1534&q=80");
+  /*Ajustar o tamanho da imagem de fundo*/
+  background-size: 100% cover;
+  /*Alterar a posição vertical da imagem*/
+  background-position-y: -370px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Times new romam";
+  font-size: 40pt;
+  color: white;
+  /*vamos aplicar uma sombra:
+  -Primeiro elemento é a posição horizontal da sombra;
+  -Segundo elemento é a posição vertical da sombra;
+  -Terceiro elemento é o efeito de esfumaçado da sombra;
+  -Quarto elemento é a cor*/
+  text-shadow: 2px 2px 5px black;
+}
+
+/*vamos fazer a formatação da barra de navegação*/
+nav {
+  background-color: rgb(153, 83, 13);
+  padding: 10px;
+  text-align: center;
+}
+nav ul li {
+  /*dispor os elementos em linha*/
+  display: inline-block;
+  /*espaço entre os links*/
+  margin: 5px;
+}
+
+nav ul li a {
+  color: white;
+  font-family: "Times new Romam";
+  /*tirar o sublinhado*/
+  text-decoration: none;
+}
