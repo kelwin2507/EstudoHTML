@@ -108,3 +108,50 @@ footer div {
   width: 50px;
   height: 50px;
 }
+
+/*============================ Início da formatação css para a página home ========================= */
+h2 {
+  font-family: "Times new romam";
+  font-size: 20pt;
+  border-bottom: 1px dashed darkred;
+  margin: 30px;
+}
+
+main p {
+  margin: 10px;
+  width: 80%;
+  /* para alinhar um objeto ao centro, você pode usar margin-left e margin-right auto para os dois */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-family: "lucida sans";
+  font-size: 12pt;
+  /* Espaçamento entre linhas com o comando line-height */
+  line-height: 25px;
+}
+
+#imghome {
+  text-align: center;
+}
+
+#imghome img {
+  width: 330px; /*largura da imagem*/
+  height: 300px; /*altura da imagem*/
+  /* Arredondar os cantos das imagens */
+  border-radius: 60px;
+  /*vamos deixar as imagens um pouco opacas*/
+  opacity: 0.7; /* colocar as imagens em 70% de opacidade*/
+  margin: 20px;
+  /* Efeito de transição. Isso fará com que a imagem tenha uma animação qunado passar o mouse sobre ela */
+  transition: ease 1s;
+}
+
+#imghome img:hover {
+  opacity: 1;
+  width: 400px;
+  height: 370px;
+  /* transform: scale(1.2); */
+  /* transform: rotate(360deg); girar a imagem em 360 graus */
+}
+
+/*============================ Fim da formatação css para a página home ========================= */
