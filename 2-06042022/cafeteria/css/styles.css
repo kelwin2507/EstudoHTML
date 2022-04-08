@@ -59,6 +59,7 @@ nav ul li a {
 
 main {
   padding: 20px;
+  background-color: wheat;
 }
 
 footer {
@@ -185,5 +186,73 @@ main p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 /* ================================== Fim da página História ================================ */
+
+/* ==============================Início dos Estilos para o cardápio =========================== */
+h3 {
+  /* converter as letras para maiúsculas */
+  text-transform: uppercase; /*UpperCase->Letras maiúsculas*/
+  font-size: 18pt;
+  font-family: "Verdana";
+  color: rgb(110, 59, 9);
+  margin: 30px;
+  padding-left: 190px;
+}
+
+#linha {
+  display: flex;
+  flex-direction: row;
+  /* Realizar a quebra de linha para os demais produtos que forem adicionados */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#linha #produto {
+  width: 40%;
+  margin: 10px;
+  /* Determinar que o conteúdo do produto será flexível */
+  display: flex;
+  flex-direction: row;
+}
+
+#linha #produto #imgprod,
+#linha #produto #descricao {
+  width: 48%;
+  margin: 10px;
+  transition: ease 0.5s;
+}
+
+#linha #produto #imgprod img {
+  width: 100%;
+  height: 250;
+  border-radius: 8px;
+}
+
+h4 {
+  font-family: "verdana";
+  font-size: 15pt;
+  margin: 5px;
+}
+
+h5 {
+  font-family: "Lucida sans";
+  font-weight: lighter; /*Retirar o negrito*/
+  font-size: 10pt;
+  margin: 10px;
+}
+
+h6 {
+  font-family: "Lucida sans";
+  color: darkred;
+  font-size: 12pt;
+  margin: 10px;
+}
+
+#linha #produto:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* ================================== Fim da página Cardápio ========================= */
