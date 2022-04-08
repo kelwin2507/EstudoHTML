@@ -256,3 +256,17 @@ h6 {
 }
 
 /* ================================== Fim da página Cardápio ========================= */
+
+/* ================================== Início do estilo do mapa ====================== */
+#mapa {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mapa iframe {
+  width: 100%;
+  height: 500px;
+}
+
+/* ================================== Fim do estilo do mapa */
