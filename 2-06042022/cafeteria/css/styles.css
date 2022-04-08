@@ -20,7 +20,7 @@ header {
   /*Ajustar o tamanho da imagem de fundo*/
   background-size: 100%;
   /*Alterar a posição vertical da imagem*/
-  background-position-y: -530px;
+  background-position-y: -330px;
   padding-top: 100px;
   text-align: center;
 }
@@ -155,3 +155,35 @@ main p {
 }
 
 /*============================ Fim da formatação css para a página home ========================= */
+
+/*============================ Início dos estilos da página História ============================ */
+
+#imghistoria {
+  /* centralizar o conteúdo dessa div */
+  text-align: center;
+  /* alterar a largura da caixa com imgs */
+  width: 90%;
+  /* centralizar a div que contém as imagens */
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Vamos formatar o tamanho das imagens que estão dentro da caixa imghistoria */
+#imghistoria img {
+  width: 270px;
+  height: 245px;
+  margin: 5px;
+}
+#videohistoria {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#videohistoria iframe {
+  width: 50%;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ================================== Fim da página História ================================ */
