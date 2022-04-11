@@ -20,7 +20,7 @@ header {
   /*Ajustar o tamanho da imagem de fundo*/
   background-size: 100%;
   /*Alterar a posição vertical da imagem*/
-  background-position-y: -330px;
+  background-position-y: -380px;
   padding-top: 100px;
   text-align: center;
 }
@@ -269,4 +269,54 @@ h6 {
   height: 500px;
 }
 
-/* ================================== Fim do estilo do mapa */
+/* ================================== Fim do estilo do mapa ==========================*/
+
+/* ================================== Início do Contato ================================ */
+main form {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  box-shadow: 5px 5px 15px rgb(110, 59, 9);
+}
+
+main form input,
+main form select,
+main form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 8px;
+  font-family: "Times new romam";
+  border: 0px;
+  border-bottom: 1px solid rgb(110, 59, 9);
+  outline: 0px;
+  background-color: rgb(245, 228, 201);
+}
+
+main form input[type="tel"],
+main form select {
+  width: 49%;
+}
+
+main form textarea {
+  height: 180px;
+}
+
+main form input[type="submit"] {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  background-color: rgb(153, 83, 13);
+  color: white;
+  border: 0px;
+  transition: ease 0.5s;
+}
+
+main form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: rgb(214, 116, 18);
+  color: white;
+}
+
+/* ================================== Fim do Contato ==================================== */
