@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,Café,Bolinho">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cafeteria Home</title>
+</head>
+<body>
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        <h1>Cafeteria Home</h1>
+    </header>
+    <nav>
+        <a id="fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="cardapio.html">Cardapio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Conheça Nossa História</h2>
+        <div id="imghistoria">
+            <img src="img/salgado2.jpg" alt="salgado">
+            <img src="img/bolo3.jpg" alt="bolo doce">
+            <img src="img/cafe11.jpg" alt="café delicioso">
+            <img src="img/bolo5.jpg" alt="bolo gostoso">
+        </div>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum perspiciatis veritatis, libero consequatur, voluptatum, deleniti sed maiores suscipit autem obcaecati rerum voluptatibus architecto eius vitae laudantium nobis in eos nam.</span><span>Distinctio excepturi perferendis dolorum ea quis libero architecto aperiam consequuntur unde, molestiae modi repudiandae! Suscipit ipsam, totam fugiat, quas fuga qui dicta cum quo asperiores non facere earum laudantium a.</span><span>Labore quibusdam dignissimos sed qui veritatis iure aspernatur recusandae eius placeat vero aut, numquam debitis? Voluptate magnam facilis officia nam maxime! Suscipit ducimus aspernatur repudiandae sunt cumque! Minima, facere ratione.</span><span>Excepturi nisi, minima neque modi at facere nesciunt harum dolorum quam eaque doloribus ipsa quisquam consequuntur obcaecati explicabo aspernatur hic blanditiis expedita, exercitationem alias provident! Consequatur fugiat necessitatibus ea! Quos.</span><span>Voluptatum voluptatem doloremque sequi quia! Tenetur laborum eum corrupti enim rerum porro neque magnam dolorum ipsam architecto, nihil quisquam culpa consectetur, voluptatibus in magni illo recusandae nobis eius deserunt distinctio?</span></p>
+
+        <div id="videohistoria">
+            <iframe src="https://www.youtube.com/embed/mCspTWZqOsY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </div>
+
+    </main>
+    <footer>
+        <div id="endereco">
+            Rua Pedro Mariano Oliveira, 78 <br>
+            São Paulo - Sp - CEP: 03428-100 <br>
+            Telefone: 11 4002-8922
+        </div>
+
+        <div id="redes"> 
+            <ul>
+                <li><a href="http://www.facebook.com"target="_blank"><img src="img/facebook.png" alt="Acesse nosso facebook"></a></li>
+                <li><a href="http://www.instagram.com"target="_blank"><img src="img/instagram.png" alt="Acesse nosso instagram"></a></li>
+                <li><a href="http://www.youtube.com"target="_blank"><img src="img/youtube.png" alt="Acesse nosso canal no youtube"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px";
+        }
+
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-200px";
+        }
+    </script>
+    
+</body>
+</html>
